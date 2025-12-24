@@ -2,6 +2,8 @@
 
 Check the wiki: <https://wiki.archlinux.org/title/Minecraft/Java_Edition_server>
 
+
+
 ## Install the server
 
 The `minecraft-server` package is available in the Arch User Repository (AUR)
@@ -12,6 +14,7 @@ yay -Syu minecraft-server
 ```
 
 The server is installed to `/srv/minecraft` and the `minecraft` user is created.
+
 
 ### Add mods
 
@@ -28,12 +31,16 @@ Add the mods to the `mods` directory in `/srv/minecraft` and configure the
 executable to the `run.sh` script in the server directory (see the Configure
 section)
 
+
+
 ## Configure the server
 
 The EULA must be accepted after the first run of the server.
 
 Settings can be set in the `/etc/conf.d/minecraftd` file, including a custom
 executable path.
+
+
 
 ## Operate the server
 
